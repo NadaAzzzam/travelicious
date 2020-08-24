@@ -1,0 +1,29 @@
+.subscribe{
+    background-image:linear-gradient(to right, #1976bca1 0%, #8dc645e3 100%), url(../../../images/bgn-heading-06.jpg);
+    padding: 8rem 0;
+    text-align: right !important;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+
+    &-content{
+        margin-bottom: 3rem;
+
+        h1{
+            font-size: 3.5rem;
+        }
+        p{
+            width: 50%;
+
+        }
+    }
+    @media screen and  (max-width: 767px)  {
+        &-content{
+            p{
+                width: unset;
+            }
+        }
+    }
+}

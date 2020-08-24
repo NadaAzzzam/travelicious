@@ -1,0 +1,25 @@
+@import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+// @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+@import '../../../node_modules/@fortawesome/fontawesome-free/css/all.css';// Ensure you are using css-loader'
+@import "../../../node_modules/slick-carousel/slick/slick.scss"; 
+@import "../../../node_modules/slick-carousel/slick/slick-theme.scss";
+@import "../../../node_modules/aos/dist/aos.css";
+// BASE
+@import './base';
+@import './layout';
+@import './navagition';
+@import './breadcrumb';
+@import './buttons';
+@import './forms';
+@import './footer';
+@import './preloade';
+
+
+@import './components/home/index.scss';
+@import './components/contactus/contact-us.scss';
+@import './components/blog/blog.scss';
+@import './components/product/products.scss';
+@import './components/aboutus/index.scss';
+@import './components/single-blog/index.scss';
+
+@import './queries';

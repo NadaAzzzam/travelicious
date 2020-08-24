@@ -1,0 +1,18 @@
+.clientSlider{
+    padding: 5rem 0;
+&-slider{
+    margin-top: 4rem;
+
+&-image{
+    transition: transform 250ms ease-in-out,filter 650ms ease-in-out;
+    filter:grayscale(1);
+
+    img{
+        width: 80%;
+    }
+    &:hover{
+        filter:grayscale(0);
+    }
+}
+}
+}

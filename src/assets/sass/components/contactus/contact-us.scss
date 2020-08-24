@@ -1,0 +1,53 @@
+.contactus{
+    &-form{
+        padding: 5rem 0;
+        .heading-secondary{
+            text-align: right;
+            p{
+                width: 100%;
+            }
+        }
+        ul{
+            list-style: none;
+            padding: 0;
+            display: flex;
+            li{
+                margin-bottom: 1rem;
+                h5{
+                    font-weight: 900;
+                }
+                i{
+                    padding-left: 1rem;
+                    font-size: 2rem;
+                    color: #1976bc;
+                }
+                span{
+                    display: block;
+                    width: 11rem;
+                    color: #888888;
+                    line-height: 19px;
+                }
+            }
+        }
+    }
+    &-card{
+        text-align: center;
+        h5{
+            margin-top: 2px;
+            margin-bottom: 9px;
+            font-weight: 900;
+            font-size: 1.1rem;
+        }
+        i{
+            padding-left: .5rem;
+            font-size: 2rem;
+            color: #1976bc;
+        }
+        p{
+            line-height: 17px;
+            font-size: 14px;
+
+        }
+    }
+
+}

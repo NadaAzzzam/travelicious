@@ -1,0 +1,16 @@
+.vision_mission{
+    padding: 5rem 0;
+    overflow: hidden;
+    &-card{
+        text-align: center;
+        h3{
+            font-weight: 900;
+        }
+    }
+    &-icon{
+    color: #8dc645;
+    font-size: 3rem;
+    margin: 1rem 0;
+
+    }
+}

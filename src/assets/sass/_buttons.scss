@@ -1,0 +1,60 @@
+.btn{
+    color: #fff ;
+    width: auto ;
+    // background-color: #1976bc ;
+    border: 0 ;
+    cursor: pointer ;
+    font-weight: 700 ;
+    padding: 1rem 1.5rem;
+    font-size: 1rem ;
+    line-height: 1 ;
+    transform: translateY(0) ;
+    box-shadow: 0 0 0 rgba(24,24,24,.15) ;
+    transition:all 300ms ease  ;
+    text-shadow: 0 1px 3px rgba(24,24,24,.15) ;
+    background-size: 1px 200% ;
+    white-space: normal ;
+    border-radius: 0 ;
+    &.focus, &:focus {
+        outline: 0;
+        box-shadow: none;
+    }
+    &-text{
+        color: #1976bc;
+        display: inline-block;
+        text-decoration: none;
+        border-bottom: 1px solid #1976bc;
+        padding: 3px;
+        font-size: 1rem;
+        transition: all .2s ease-in-out;
+        &:hover{
+            background-color: #1976bc;
+            color: #fff;
+            box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+            transform: translateY(-3px);
+    text-decoration: none;
+
+        }
+    }
+    &--ghost{
+        border: 2px solid #8dc645;
+    transition:all 300ms ease  ;
+        background-color: transparent;
+        &:hover{
+           color: white; 
+           background-color:#8dc645 ;
+           
+        }
+    }
+    &--full{
+
+    background-image: linear-gradient(to bottom,#1976bc 50%,#8dc645 100%) ;
+    &:hover{
+
+    color: white;
+    box-shadow: 0 3px 10px rgba(24,24,24,.15);
+     background-position: 1px 100%;
+        }
+    }
+    
+}

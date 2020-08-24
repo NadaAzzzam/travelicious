@@ -1,0 +1,90 @@
+.products_slider{
+    padding: 5rem 0;
+
+    &-card{
+        transition: 300ms ease all;
+        width: 95%;
+        padding: .7rem;
+        &:hover{
+        transform: translateY(-.625em);
+        }
+    }
+    &-card:hover &-imge::before{
+        opacity: .55;
+    }
+    &-card:hover &-imge::after{
+        transform: scaleX(1);
+    }
+    &-imge{
+        position: relative;
+        img{
+            width: 100%; 
+            margin: 0;
+        }
+        &::after,&::before{
+            display: block;
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            transition: 300ms ease all;
+            pointer-events: none;
+        }
+        &::after {
+            height: 4px;
+            z-index: 2;
+            background: linear-gradient(to right,#1976bc 0%,#8dc645 100%);
+            transform: scaleX(0);
+            // transform: scaleX(1);
+            transform-origin: 0 0;
+        }
+        &::before{
+            top: 0;
+            background: #181818;
+            // opacity: .55;
+            opacity: 0;
+            z-index: 1;
+            height: 100%;
+        }
+        
+       
+    }
+    &-price{
+        box-shadow: 3px 2px 5px rgba(24,24,24,.15);
+        text-align: right;
+        font-size: 1.3rem;
+        padding: 2rem 1rem;
+
+
+        h3{
+            font-weight: 900;
+        }
+        del{
+            color: inherit;
+            opacity: .5;
+            display: inline-block;
+            margin: 0 0 0 7px ;
+            font-weight: 400;
+            text-decoration: none;
+            position: relative;
+            font-size: 1.5rem;
+
+            &::after{
+                content: '';
+                border-bottom: 1px solid currentColor;
+                width: 100%;
+                position: absolute;
+                right: 0;
+                top: 50%;
+            }
+        }
+    }
+ .slider-arrow{
+    position: relative;
+    cursor: pointer;
+    margin: auto;
+    color: #8dc645;
+    font-size: 2rem;
+} 
+}

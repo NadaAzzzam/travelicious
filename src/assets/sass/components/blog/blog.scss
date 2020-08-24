@@ -1,0 +1,134 @@
+.blog{
+    &-slider{
+    padding: 4rem 0px;
+    }
+    &-content{
+        text-align: right;
+        position: relative;
+       
+        
+        ul{
+            padding: 0;
+            list-style: none;
+            display: flex;
+            margin: 0;
+            li{
+                a{
+                    font-size: 14px;
+                    position: relative;
+                    color: black;
+                    text-decoration: none;
+
+                    &:nth-child(1):before{
+                        content: ' ';
+                        display: inline-block;
+                        margin: -2px 8px 0 8px;
+                        letter-spacing: inherit;
+                        width: 3px;
+                        height: 3px;
+                        border-radius: 50%;
+                        line-height: inherit;
+                        vertical-align: middle;
+                        background-color: currentColor;
+                        opacity: .2;
+                    }
+                    }
+                i{
+                    position: unset;
+                    margin-right: 12px;
+                    margin-left: 1px;
+                    color: #1976bc;
+                }   
+            }
+        }
+        h4{
+            font-weight: 900;
+        }
+     
+        &-header{
+            margin-bottom: 2rem;
+        }
+    }
+
+    @keyframes wiggle {
+        0% {transform: rotateZ(2deg);}
+        50% {transform: rotateZ(-2deg);}
+        100% {transform: rotateZ(2deg);}
+    }
+    
+    @mixin iconTransition{
+    
+            transition: all 100ms cubic-bezier(0.420, 0.000, 0.580, 1.000); /* ease-in-out */
+    }
+    
+    @mixin wiggler{
+       animation-name: wiggle;
+       animation-duration: .4s;
+       animation-iteration-count: infinite;
+       animation-timing-function: ease;
+    }
+    
+    
+
+
+    
+    .social{
+       text-align: center;
+      font-size: 2.5em;
+      height: 50px;
+      overflow:hidden;
+      border-bottom: 1px solid #abc;
+      @media screen and  (max-width: 767px)  {
+          &{
+            margin: 17px;
+          }
+      }
+         i{
+      position: relative;
+      top: 30px;
+      margin: 0 10px;
+      @include iconTransition;
+      cursor: pointer;
+
+    
+      &:hover{
+         top: 5px;
+         @include wiggler;
+        
+        }
+    }
+    }
+    
+ 
+    
+    .fb{
+      color: #3B5998;
+    }
+    
+    .tw{
+     color: #09AEEC;
+    }
+    
+    .yt{
+      color: #AA2A25;
+    }
+    
+    .dr{
+      color: #ea4c89;
+    }
+    
+    .ln{
+      color: #0077b5;
+    }
+    
+
+
+}
+
+.blog-content:not(:last-child):after{
+    content: '';
+    position: absolute;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+     padding-bottom: 4rem; 
+     width: 100%;
+ }
