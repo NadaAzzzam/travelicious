@@ -10,26 +10,26 @@ import ContactUs from "./views/ContactUs";
 const routes = [
 
   {
-    to:'/home',
+    to:'/travelicious/home',
     label:'الرئيسيه',
     component: Home,
   },
   {
-    to:'/about-us',
+    to:'/travelicious/about-us',
     label:'عنا',
     component: AboutUs,
   } , {
-    to:'/products',
+    to:'/travelicious/products',
     label:'منتاجتنا',
     component: Products,
   },
   {
-    to:'/blog',
+    to:'/travelicious/blog',
     label:'المقالات',
     component: Blog,
   },
   {
-    to:'/contact-us',
+    to:'/travelicious/contact-us',
     label:'تواصل معانا',
     component: ContactUs,
   }
