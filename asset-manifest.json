@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/travelicious/static/css/main.3ec8b25b.chunk.css",
-    "main.js": "/travelicious/static/js/main.c2464ea2.chunk.js",
-    "main.js.map": "/travelicious/static/js/main.c2464ea2.chunk.js.map",
+    "main.js": "/travelicious/static/js/main.a79d5ba5.chunk.js",
+    "main.js.map": "/travelicious/static/js/main.a79d5ba5.chunk.js.map",
     "runtime-main.js": "/travelicious/static/js/runtime-main.cdf825c2.js",
     "runtime-main.js.map": "/travelicious/static/js/runtime-main.cdf825c2.js.map",
     "static/css/2.0cbfc84d.chunk.css": "/travelicious/static/css/2.0cbfc84d.chunk.css",
     "static/js/2.3cabc83f.chunk.js": "/travelicious/static/js/2.3cabc83f.chunk.js",
     "static/js/2.3cabc83f.chunk.js.map": "/travelicious/static/js/2.3cabc83f.chunk.js.map",
     "index.html": "/travelicious/index.html",
-    "precache-manifest.2fb3aa58d3fedae2f6d150cc76986b5b.js": "/travelicious/precache-manifest.2fb3aa58d3fedae2f6d150cc76986b5b.js",
+    "precache-manifest.6e0a2d8cf82912e9c2d9154626c30704.js": "/travelicious/precache-manifest.6e0a2d8cf82912e9c2d9154626c30704.js",
     "service-worker.js": "/travelicious/service-worker.js",
     "static/css/2.0cbfc84d.chunk.css.map": "/travelicious/static/css/2.0cbfc84d.chunk.css.map",
     "static/css/main.3ec8b25b.chunk.css.map": "/travelicious/static/css/main.3ec8b25b.chunk.css.map",
@@ -23,6 +23,6 @@
     "static/css/2.0cbfc84d.chunk.css",
     "static/js/2.3cabc83f.chunk.js",
     "static/css/main.3ec8b25b.chunk.css",
-    "static/js/main.c2464ea2.chunk.js"
+    "static/js/main.a79d5ba5.chunk.js"
   ]
 }
