@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/travelicious/static/css/main.3ec8b25b.chunk.css",
+    "main.js": "/travelicious/static/js/main.29bd207a.chunk.js",
+    "main.js.map": "/travelicious/static/js/main.29bd207a.chunk.js.map",
+    "runtime-main.js": "/travelicious/static/js/runtime-main.cdf825c2.js",
+    "runtime-main.js.map": "/travelicious/static/js/runtime-main.cdf825c2.js.map",
+    "static/css/2.0cbfc84d.chunk.css": "/travelicious/static/css/2.0cbfc84d.chunk.css",
+    "static/js/2.493759d1.chunk.js": "/travelicious/static/js/2.493759d1.chunk.js",
+    "static/js/2.493759d1.chunk.js.map": "/travelicious/static/js/2.493759d1.chunk.js.map",
+    "index.html": "/travelicious/index.html",
+    "precache-manifest.27c30fa47c7e9eb7a8dd4e592457bf04.js": "/travelicious/precache-manifest.27c30fa47c7e9eb7a8dd4e592457bf04.js",
+    "service-worker.js": "/travelicious/service-worker.js",
+    "static/css/2.0cbfc84d.chunk.css.map": "/travelicious/static/css/2.0cbfc84d.chunk.css.map",
+    "static/css/main.3ec8b25b.chunk.css.map": "/travelicious/static/css/main.3ec8b25b.chunk.css.map",
+    "static/js/2.493759d1.chunk.js.LICENSE.txt": "/travelicious/static/js/2.493759d1.chunk.js.LICENSE.txt",
+    "static/media/Travelicious-logo.png": "/travelicious/static/media/Travelicious-logo.1a922012.png",
+    "static/media/main.scss": "/travelicious/static/media/slick.f97e3bbf.svg",
+    "static/media/google map .png": "/travelicious/static/media/google map .6f79c215.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cdf825c2.js",
+    "static/css/2.0cbfc84d.chunk.css",
+    "static/js/2.493759d1.chunk.js",
+    "static/css/main.3ec8b25b.chunk.css",
+    "static/js/main.29bd207a.chunk.js"
+  ]
+}
