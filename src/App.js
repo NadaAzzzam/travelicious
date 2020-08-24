@@ -109,11 +109,11 @@ useEffect(() => {
         
         <Switch >
           {/* <Route path="/page-notfound" component = {PageNotFound}/> */}
-          <Redirect exact from="/" to="/home" />
+          <Redirect exact from="/travelicious" to="/travelicious/home" />
 
           {getRoutes(routes)}
            
-          <Route scrollDown={shouldShowActions}  path='/single-blog' component={SingleBlog} />
+          <Route scrollDown={shouldShowActions}  path='/travelicious/single-blog' component={SingleBlog} />
         </Switch>
         {/* <Redirect  to="/page-notfound" /> */}
       </div>
