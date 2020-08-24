@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "33abaab19bb498ec7a8a993f092e8f63",
+    "revision": "400e41de5429b8a3fc633a8a44f034a8",
     "url": "/travelicious/index.html"
   },
   {
-    "revision": "cf0438d223dfbe2a74f6",
+    "revision": "99387b7536c4121dfd3d",
     "url": "/travelicious/static/css/2.0cbfc84d.chunk.css"
   },
   {
-    "revision": "0f59746cb7b712db2e41",
+    "revision": "6eab857cea17e9c5c2ee",
     "url": "/travelicious/static/css/main.3ec8b25b.chunk.css"
   },
   {
-    "revision": "cf0438d223dfbe2a74f6",
-    "url": "/travelicious/static/js/2.493759d1.chunk.js"
+    "revision": "99387b7536c4121dfd3d",
+    "url": "/travelicious/static/js/2.3cabc83f.chunk.js"
   },
   {
     "revision": "876e403427d7be82fb4e8ac24123aaf3",
-    "url": "/travelicious/static/js/2.493759d1.chunk.js.LICENSE.txt"
+    "url": "/travelicious/static/js/2.3cabc83f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0f59746cb7b712db2e41",
-    "url": "/travelicious/static/js/main.df1c062d.chunk.js"
+    "revision": "6eab857cea17e9c5c2ee",
+    "url": "/travelicious/static/js/main.c2464ea2.chunk.js"
   },
   {
     "revision": "1c84643521368e3a9d85",
